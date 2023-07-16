@@ -1,45 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/logo.png">
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Shoexport.com</title>
 </head>
-<body>
-    <nav id="nav">
-        <div class="navTop">
-            <div class="navItem">
-                <img src="./img/logo_shoexport.jpg" alt="">
-            </div>
-            <div class="navItem">
-                <div class="search">
-                    <input type="text" placeholder="Search..." class="searchInput">
-                    <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" style="background-color: #111; color: white; padding: 20px 50px;">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo2.png" alt="logo" style="display: flex; justify-content: space-between; height: 70px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <h3 class="menuItem">AIR FORCE</h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3 class="menuItem">JORDAN</h3>
+                    </li class="nav-item">
+                    <li>
+                        <h3 class="menuItem">BLAZER</h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3 class="menuItem">CRATER</h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3 class="menuItem">HIPPIE</h3>
+                    </li>
+                </ul>
+                <div style="display: flex; justify-content: space-between; width: 300px; height: 45px;">
+                    <form class="d-flex" role="search" style="display: flex; align-items: center; background-color: gray; padding: 10px 20px; border-radius: 10px;">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border: none; background-color: transparent;">
+                        <button class="btn btn-outline-success" type="submit" style="border: none;">
+                            <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
+                        </button>
+                    </form>
                 </div>
             </div>
-            <div class="navItem">
-                <span class="limitedOffer">OFERTA POR TIEMPO LIMITADO!</span>
-            </div>
-        </div>
-        <div class="navBottom">
-            <h3 class="menuItem">AIR FORCE</h3>
-            <h3 class="menuItem">JORDAN</h3>
-            <h3 class="menuItem">BLAZER</h3>
-            <h3 class="menuItem">CRATER</h3>
-            <h3 class="menuItem">HIPPIE</h3>
         </div>
     </nav>
+</header>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
     <div class="slider">
         <div class="sliderWrapper">
             <div class="sliderItem">
                 <img src="./img/air.png" alt="" class="sliderImg">
                 <div class="sliderBg"></div>
-                <h1 class="sliderTitle">AIR FORCE</br> NEW</br> SEASON</h1>
+                <h1 class="sliderTitle">AIR FORCE </br> NEW </br> SEASON</h1>
                 <h2 class="sliderPrice">$119</h2>
                 <a href="#product">
                     <button class="buyButton">COMPRA AHORA!</button>
@@ -48,7 +74,7 @@
             <div class="sliderItem">
                 <img src="./img/jordan.png" alt="" class="sliderImg">
                 <div class="sliderBg"></div>
-                <h1 class="sliderTitle">AIR JORDAN</br> NEW</br> SEASON</h1>
+                <h1 class="sliderTitle">AIR JORDAN </br> NEW </br> SEASON</h1>
                 <h2 class="sliderPrice">$149</h2>
                 <a href="#product">
                     <button class="buyButton">COMPRA AHORA!</button>
@@ -57,7 +83,7 @@
             <div class="sliderItem">
                 <img src="./img/blazer.png" alt="" class="sliderImg">
                 <div class="sliderBg"></div>
-                <h1 class="sliderTitle">BLAZER</br> NEW</br> SEASON</h1>
+                <h1 class="sliderTitle">BLAZER </br> NEW </br> SEASON</h1>
                 <h2 class="sliderPrice">$109</h2>
                 <a href="#product">
                     <button class="buyButton">COMPRA AHORA!</button>
@@ -66,7 +92,7 @@
             <div class="sliderItem">
                 <img src="./img/crater.png" alt="" class="sliderImg">
                 <div class="sliderBg"></div>
-                <h1 class="sliderTitle">CRATER</br> NEW</br> SEASON</h1>
+                <h1 class="sliderTitle">CRATER </br> NEW </br> SEASON</h1>
                 <h2 class="sliderPrice">$129</h2>
                 <a href="#product">
                     <button class="buyButton">COMPRA AHORA!</button>
@@ -75,7 +101,7 @@
             <div class="sliderItem">
                 <img src="./img/hippie.png" alt="" class="sliderImg">
                 <div class="sliderBg"></div>
-                <h1 class="sliderTitle">HIPPIE</br> NEW</br> SEASON</h1>
+                <h1 class="sliderTitle">HIPPIE </br> NEW </br> SEASON</h1>
                 <h2 class="sliderPrice">$99</h2>
                 <a href="#product">
                     <button class="buyButton">COMPRA AHORA!</button>
@@ -83,7 +109,7 @@
             </div>
         </div>
     </div>
-   
+
     <div class="features">
         <div class="feature">
             <img src="./img/shipping.png" alt="" class="featureIcon">
@@ -112,7 +138,7 @@
         <div class="productDetails">
             <h1 class="productTitle">AIR FORCE</h1>
             <h2 class="productPrice">$199</h2>
-            <p class="productDesc">Más rápido que contar hasta tres: ponte el calzado de 
+            <p class="productDesc">Más rápido que contar hasta tres: ponte el calzado de
                 básquetbol original en un instante
                 y sal a la cancha sin perder tiempo.</p>
             <div class="colors">
