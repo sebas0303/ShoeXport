@@ -27,8 +27,8 @@ const products = [
         img: "./img/jordan.png",
       },
       {
-        code: "green",
-        img: "./img/jordan2.png",
+        code: "red",
+        img: "./img/retro1.png",
       },
     ],
   },
