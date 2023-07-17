@@ -14,52 +14,55 @@
     <link rel="stylesheet" href="style.css">
     <title>Shoexport.com</title>
 </head>
-<header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid" style="background-color: #111; color: white; padding: 20px 50px;">
-            <a class="navbar-brand" href="#">
-                <img src="./img/logo2.png" alt="logo" style="display: flex; justify-content: space-between; height: 70px;">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <h3 class="menuItem">AIR FORCE</h3>
-                    </li>
-                    <li class="nav-item">
-                        <h3 class="menuItem">JORDAN</h3>
-                    </li class="nav-item">
-                    <li>
-                        <h3 class="menuItem">BLAZER</h3>
-                    </li>
-                    <li class="nav-item">
-                        <h3 class="menuItem">CRATER</h3>
-                    </li>
-                    <li class="nav-item">
-                        <h3 class="menuItem">HIPPIE</h3>
-                    </li>
-                </ul>
-                <div style="display: flex; justify-content: space-between; width: 300px; height: 45px;">
-                    <form class="d-flex" role="search" style="display: flex; align-items: center; background-color: gray; padding: 10px 20px; border-radius: 10px;">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border: none; background-color: transparent;">
-                        <button class="btn btn-outline-success" type="submit" style="border: none;">
-                            <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </nav>
-</header>
 
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid" style="background-color: #111; color: white; padding: 20px 50px;">
+                <a class="navbar-brand" href="iniciar_sesion.html">
+                    <img src="./img/logo2.png" alt="logo"
+                        style="display: flex; justify-content: space-between; height: 70px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation" style="border-color: white; background-color: gray;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <h3 class="menuItem">AIR FORCE</h3>
+                        </li>
+                        <li class="nav-item">
+                            <h3 class="menuItem">JORDAN</h3>
+                        </li class="nav-item">
+                        <li>
+                            <h3 class="menuItem">BLAZER</h3>
+                        </li>
+                        <li class="nav-item">
+                            <h3 class="menuItem">CRATER</h3>
+                        </li>
+                        <li class="nav-item">
+                            <h3 class="menuItem">HIPPIE</h3>
+                        </li>
+                    </ul>
+                    <div style="display: flex; justify-content: space-between; width: 300px; height: 45px;">
+                        <form class="d-flex" role="search"
+                            style="display: flex; align-items: center; background-color: gray; padding: 10px 20px; border-radius: 10px;">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                                style="border: none; background-color: transparent;">
+                            <button class="btn btn-outline-success" type="submit" style="border: none;">
+                                <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <div class="slider">
         <div class="sliderWrapper">
             <div class="sliderItem">
@@ -213,7 +216,7 @@
     <footer>
         <div class="footerLeft">
             <div class="footerMenu">
-                <h1 class="fMenuTitle">Sobre nosotros</h1>
+                <a href="quienesomos.html" style="color: black; text-decoration: none;"><h1 class="fMenuTitle">Sobre nosotros</h1></a>
                 <ul class="fList">
                     <li class="fListItem">Empresa</li>
                     <li class="fListItem">Contacto</li>
@@ -245,21 +248,26 @@
             <div class="footerRightMenu">
                 <h1 class="fMenuTitle">Suscribirse para más novedades</h1>
                 <div class="fMail">
-                    <input type="text" placeholder="tuemail@mail.com" class="fInput">
-                    <button class="fButton">Únete</button>
+                    <a href="formulario.html">
+                        <button class="fButton">Únete</button>
+                    </a>
                 </div>
             </div>
             <div class="footerRightMenu">
                 <h1 class="fMenuTitle">Síguenos</h1>
                 <div class="fIcons">
-                    <img src="./img/facebook.png" alt="" class="fIcon">
-                    <img src="./img/twitter.png" alt="" class="fIcon">
-                    <img src="./img/instagram.png" alt="" class="fIcon">
-                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                    <a href="https://www.facebook.com/profile.php?id=100095000912048" target="_blank"> <img src="./img/facebook.png" alt=""
+                            class="fIcon"></a>
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin" target="_blank"> <img
+                            src="./img/twitter.png" alt="" class="fIcon"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png" alt=""
+                            class="fIcon"></a>
+                    <a href="https://web.whatsapp.com/" target="_blank"><img src="./img/whatsapp.png" alt=""
+                            class="fIcon"></a>
                 </div>
             </div>
             <div class="footerRightMenu">
-                <span class="copyright">@Sebas Dev. Derechos reservados. 2023.</span>
+                <span class="copyright">@Shoexport Dev. Derechos reservados. 2023.</span>
             </div>
         </div>
     </footer>
